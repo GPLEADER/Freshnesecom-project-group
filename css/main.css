@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
@@ -13,3 +12,83 @@
   margin: 0 auto;
   width: 95%;
 }
+
+footer {
+  padding: 64px 45px;
+  height: 556px;
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  align-items: start;
+}
+footer .footer__container .footer__container-nav {
+  display: flex;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  align-items: start;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .footer__container .footer__container-nav .navigation-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: start;
+}
+footer .footer__container .footer__container-nav .navigation-item .item-heading {
+  font-weight: 600;
+  color: #151515;
+  font-size: 18px;
+  line-height: 27px;
+}
+footer .footer__container .footer__container-nav .navigation-item .footer__container-subnavigation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: start;
+}
+footer .footer__container .footer__container-nav .navigation-item .footer__container-subnavigation li {
+  color: #6A983C;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+footer .footer__container .footer__container-tags {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: start;
+}
+footer .footer__container .footer__container-tags h2 {
+  font-weight: 600;
+  color: #2F3341;
+  font-size: 18px;
+  line-height: 27px;
+}
+footer .footer__container .footer__container-tags .footer__tags {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+footer .footer__container .footer__container-tags .footer__tags .tag {
+  color: #151515;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 4px 10px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 12px;
+}
+footer .footer__container .footer__container-copyright {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #151515;
+}/*# sourceMappingURL=main.css.map */
