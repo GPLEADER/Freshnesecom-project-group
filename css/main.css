@@ -13,3 +13,208 @@
   margin: 0 auto;
   width: 95%;
 }
+
+.blog {
+  min-height: 100dvh;
+  padding-top: 64px;
+}
+.blog .blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+}
+.blog .blog-content h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+}
+.blog .blog-content a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 6px;
+     -moz-column-gap: 6px;
+          column-gap: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  color: #151515;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.blog .blog-content a:hover {
+  color: #6A983C;
+}
+.blog .blog-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 31px;
+     -moz-column-gap: 31px;
+          column-gap: 31px;
+}
+.blog .blog-images .first-dinner-img {
+  position: relative;
+}
+.blog .blog-images .first-dinner-img img {
+  position: relative;
+  z-index: -1;
+}
+.blog .blog-images .first-dinner-img span {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #F4F8EC;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #6A983C;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #FFFFFF;
+  max-width: 380px;
+  margin-bottom: 8px;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content .author .person-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content .author .person-author small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: white;
+}
+.blog .blog-images .first-dinner-img .first-dinner-img-content .author data {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: white;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content {
+  margin-top: 24px;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #6A983C;
+  background: #F4F8EC;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 12px;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content h3 {
+  max-width: 267px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+  margin-top: 8px;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content .date small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #151515;
+}
+.blog .blog-images .second-dinner-img .second-dinner-img-content .date data {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #151515;
+}
+.blog .blog-images .right-dinner-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+.blog .blog-images .right-dinner-images .first-right-dinner-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 48px;
+}
+.blog .blog-images .right-dinner-images .first-right-dinner-image .first-right-dinner-image-content h3 {
+  max-width: 285px;
+}
+.blog .blog-images .right-dinner-images .first-right-dinner-image .first-right-dinner-image-content .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.blog .blog-images .right-dinner-images .first-right-dinner-image .first-right-dinner-image-content .date small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #151515;
+}
+.blog .blog-images .right-dinner-images .first-right-dinner-image .first-right-dinner-image-content .date data {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  color: #151515;
+}

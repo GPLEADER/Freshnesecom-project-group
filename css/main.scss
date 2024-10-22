@@ -1,6 +1,6 @@
 $primary-color: #6A983C;
 $text-color: #151515;
-$transition: all 1s ease-in-out;
+$transition: all 0.2s ease-in-out;
 
 * {
   margin: 0;
@@ -16,3 +16,5 @@ $transition: all 1s ease-in-out;
   margin: 0 auto;
   width: 95%;
 }
+
+@import "_blog";
