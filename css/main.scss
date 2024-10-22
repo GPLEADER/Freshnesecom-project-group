@@ -1,3 +1,26 @@
 
-@import "./cards"
+$primary-color: #6A983C;
+$text-color: #151515;
+$transition: all 0.2s ease-in-out;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+
+
+@import "./cards";
+  @import "_blog";
   @import "footer";
