@@ -1,3 +1,4 @@
+
 $primary-color: #6A983C;
 $text-color: #151515;
 $transition: all 0.2s ease-in-out;
@@ -17,4 +18,9 @@ $transition: all 0.2s ease-in-out;
   width: 95%;
 }
 
-@import "_blog";
+
+
+
+@import "./cards";
+  @import "_blog";
+  @import "footer";
